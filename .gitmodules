@@ -7,3 +7,6 @@
 [submodule "hw/submodules/MX_V2"]
 	path = hw/submodules/MX_V2
 	url = https://github.com/ai03-2725/MX_V2.git
+[submodule "hw/submodules/ProMicroKiCad"]
+	path = hw/submodules/ProMicroKiCad
+	url = https://github.com/Biacco42/ProMicroKiCad.git
