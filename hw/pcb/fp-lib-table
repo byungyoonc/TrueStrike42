@@ -3,4 +3,5 @@
   (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/../submodules/teensy.pretty")(options "")(descr ""))
   (lib (name "MX_Hotswap")(type "KiCad")(uri "${KIPRJMOD}/../submodules/MX_V2/MX_Hotswap.pretty")(options "")(descr ""))
   (lib (name "promicro")(type "KiCad")(uri "${KIPRJMOD}/../submodules/ProMicroKiCad/promicro.pretty")(options "")(descr ""))
+  (lib (name "project-specific-library")(type "KiCad")(uri "${KIPRJMOD}/project-specific-library.pretty")(options "")(descr ""))
 )
