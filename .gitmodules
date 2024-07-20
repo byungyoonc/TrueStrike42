@@ -10,3 +10,6 @@
 [submodule "hw/submodules/ProMicroKiCad"]
 	path = hw/submodules/ProMicroKiCad
 	url = https://github.com/Biacco42/ProMicroKiCad.git
+[submodule "hw/submodules/SkeletonKBD-Parts"]
+	path = hw/submodules/SkeletonKBD-Parts
+	url = https://github.com/skeletonkbd/SkeletonKBD-Parts

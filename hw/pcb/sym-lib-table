@@ -3,4 +3,5 @@
   (lib (name "teensy")(type "Legacy")(uri "${KIPRJMOD}/../submodules/teensy_library/teensy.lib")(options "")(descr ""))
   (lib (name "project-specific-symbols")(type "KiCad")(uri "${KIPRJMOD}/project-specific-symbols.kicad_sym")(options "")(descr ""))
   (lib (name "promicro")(type "Legacy")(uri "${KIPRJMOD}/../submodules/ProMicroKiCad/promicro_library/promicro.lib")(options "")(descr ""))
+  (lib (name "SkeletonKBD-Parts")(type "KiCad")(uri "${KIPRJMOD}/../submodules/SkeletonKBD-Parts/SkeletonKBD-Parts.kicad_sym")(options "")(descr ""))
 )
