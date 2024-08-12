@@ -4,4 +4,5 @@
   (lib (name "project-specific-symbols")(type "KiCad")(uri "${KIPRJMOD}/project-specific-symbols.kicad_sym")(options "")(descr ""))
   (lib (name "promicro")(type "Legacy")(uri "${KIPRJMOD}/../submodules/ProMicroKiCad/promicro_library/promicro.lib")(options "")(descr ""))
   (lib (name "SkeletonKBD-Parts")(type "KiCad")(uri "${KIPRJMOD}/../submodules/SkeletonKBD-Parts/SkeletonKBD-Parts.kicad_sym")(options "")(descr ""))
+  (lib (name "SSD1306-128x64")(type "Legacy")(uri "${KIPRJMOD}/../submodules/KiCad-SSD1306-128x64/library/SSD1306-128x64_OLED.lib")(options "")(descr ""))
 )

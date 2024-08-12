@@ -5,4 +5,5 @@
   (lib (name "promicro")(type "KiCad")(uri "${KIPRJMOD}/../submodules/ProMicroKiCad/promicro.pretty")(options "")(descr ""))
   (lib (name "project-specific-library")(type "KiCad")(uri "${KIPRJMOD}/project-specific-library.pretty")(options "")(descr ""))
   (lib (name "SkeletonKBD-Parts")(type "KiCad")(uri "${KIPRJMOD}/../submodules/SkeletonKBD-Parts/SkeletonKBD-Parts.pretty")(options "")(descr ""))
+  (lib (name "SSD1306")(type "KiCad")(uri "${KIPRJMOD}/../submodules/KiCad-SSD1306-128x64/library/SSD1306.pretty")(options "")(descr ""))
 )
