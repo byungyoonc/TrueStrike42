@@ -1289,6 +1289,162 @@
 				)
 			)
 		)
+		(symbol "SSD1306-128x64:SSD1306"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Brd"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SSD1306"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SSD1306 OLED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SSD1306"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSD1306-128x64_OLED:SSD1306"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SSD1306_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SSD1306_1_1"
+				(pin input line
+					(at -3.81 8.89 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 8.89 270)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 8.89 270)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SkeletonKBD-Parts:SK6812MINI-E"
 			(pin_names
 				(offset 0.254)
@@ -1534,6 +1690,151 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4805,6 +5106,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 240.03) (xy 218.44 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f36acd-61c1-4289-889c-3038b0427c8f")
+	)
+	(wire
+		(pts
 			(xy 367.03 226.06) (xy 374.65 226.06)
 		)
 		(stroke
@@ -6382,6 +6693,26 @@
 			(type default)
 		)
 		(uuid "46906a99-5837-4d06-8214-e755acc23c32")
+	)
+	(wire
+		(pts
+			(xy 247.65 237.49) (xy 252.73 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a16db4-1eb1-4d4f-afa4-c61b8d5827a2")
+	)
+	(wire
+		(pts
+			(xy 330.2 50.8) (xy 332.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b364bb-1e4d-40fc-880e-db15471ab79d")
 	)
 	(wire
 		(pts
@@ -8302,6 +8633,16 @@
 			(type default)
 		)
 		(uuid "7cea3ea8-a981-4712-aac1-a069232ef412")
+	)
+	(wire
+		(pts
+			(xy 214.63 234.95) (xy 218.44 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da087bb-38db-46ca-a3a7-8e66fefb1c3b")
 	)
 	(wire
 		(pts
@@ -10725,6 +11066,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 237.49) (xy 269.24 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fb051f-ca65-4843-96dd-9cc4882a60b8")
+	)
+	(wire
+		(pts
 			(xy 121.92 213.36) (xy 121.92 214.63)
 		)
 		(stroke
@@ -10972,6 +11323,16 @@
 			(type default)
 		)
 		(uuid "cbed3e65-e880-4fb8-a1a8-ab061b04616c")
+	)
+	(wire
+		(pts
+			(xy 214.63 242.57) (xy 218.44 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc52f71c-f403-4df7-a771-9bcf6045c3fc")
 	)
 	(wire
 		(pts
@@ -11715,6 +12076,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 237.49) (xy 218.44 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09fb792-1103-4426-a39d-1052075592f7")
+	)
+	(wire
+		(pts
 			(xy 275.59 66.04) (xy 293.37 66.04)
 		)
 		(stroke
@@ -12215,6 +12586,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 53.34) (xy 332.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec434de-ecf3-48e8-980e-314c0383d7f9")
+	)
+	(wire
+		(pts
 			(xy 287.02 78.74) (xy 289.56 78.74)
 		)
 		(stroke
@@ -12693,6 +13074,28 @@
 		)
 		(uuid "ffbd3534-b2a0-44a3-9361-10c44be3eabb")
 	)
+	(global_label "RESET"
+		(shape input)
+		(at 247.65 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "002c0af4-b82c-4a6f-9244-cfe7142fa63c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.9197 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VAL4"
 		(shape input)
 		(at 186.69 165.1 180)
@@ -12913,6 +13316,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 218.44 242.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28b22f19-2a21-4211-97ba-552e98efe272")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.9933 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VALZ"
 		(shape input)
 		(at 53.34 233.68 0)
@@ -13111,6 +13536,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 330.2 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "487aabf4-1f32-4c6e-85ed-553702b2ac9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 323.6467 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SEL0"
 		(shape input)
 		(at 267.97 170.18 180)
@@ -13124,6 +13571,28 @@
 		(uuid "4cae81d3-4259-43f4-89f1-58be8127ccff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 259.1792 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 330.2 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cb76d23-cf3e-4152-851c-52571cb58e7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 323.7072 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,6 +13813,28 @@
 		(uuid "7fdd11d0-f1e0-428e-a4c3-a1b4e1346af8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.6191 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 218.44 240.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "802000c3-9c25-4775-a40b-cf57529de5ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.9328 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16606,6 +17097,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "324e9e63-d185-4cf0-a8c7-c139616167ec")
+		(property "Reference" "#PWR050"
+			(at 224.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f12d031-18d4-404f-a8d3-2a4d9a410987")
+		)
+		(instances
+			(project "TrueStrike42"
+				(path "/b6eaeb87-498a-45c0-b349-c7ab4413dd95"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "project-specific-symbols:SLSS49E")
 		(at 275.59 76.2 0)
 		(unit 1)
@@ -19386,6 +19942,71 @@
 			(project "TrueStrike42"
 				(path "/b6eaeb87-498a-45c0-b349-c7ab4413dd95"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 237.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c268b05-4411-4a32-aa12-ef4acc8bfd9a")
+		(property "Reference" "#PWR052"
+			(at 275.59 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ebaa285-298f-49a6-819f-522cf51e5864")
+		)
+		(instances
+			(project "TrueStrike42"
+				(path "/b6eaeb87-498a-45c0-b349-c7ab4413dd95"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -22312,6 +22933,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 218.44 237.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87932413-81bc-4671-b8ff-8d4789215a88")
+		(property "Reference" "#PWR051"
+			(at 214.63 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 222.25 237.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 218.44 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc5a33b0-8d05-4dd7-a59b-fa3f5de382ba")
+		)
+		(instances
+			(project "TrueStrike42"
+				(path "/b6eaeb87-498a-45c0-b349-c7ab4413dd95"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 370.84 40.64 270)
 		(unit 1)
@@ -24023,6 +24711,74 @@
 			(project "TrueStrike42"
 				(path "/b6eaeb87-498a-45c0-b349-c7ab4413dd95"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 257.81 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7b80bb4-5a85-434f-9311-42ab91b19d74")
+		(property "Reference" "SW1"
+			(at 257.81 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 257.81 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+			(at 257.81 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 257.81 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d6f71e9-1016-4082-99d4-4a25107c3d45")
+		)
+		(pin "1"
+			(uuid "3a0a3518-e634-4f3d-89e5-b07a0c931b3b")
+		)
+		(instances
+			(project ""
+				(path "/b6eaeb87-498a-45c0-b349-c7ab4413dd95"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -26690,6 +27446,80 @@
 			(project "TrueStrike42"
 				(path "/b6eaeb87-498a-45c0-b349-c7ab4413dd95"
 					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SSD1306-128x64:SSD1306")
+		(at 205.74 238.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb95e3e4-d4c9-414d-98a4-4adae3ebbac9")
+		(property "Reference" "Brd1"
+			(at 205.74 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SSD1306"
+			(at 205.74 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SSD1306:128x64OLED"
+			(at 212.09 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SSD1306 OLED"
+			(at 205.74 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6abff487-ca48-4613-9601-6446c821a83b")
+		)
+		(pin "1"
+			(uuid "33c5107c-ac2e-4ee9-95a6-4906e8279fa5")
+		)
+		(pin "2"
+			(uuid "2d587ff3-a6c9-4966-95f4-986e05614a46")
+		)
+		(pin "3"
+			(uuid "14af44a5-0a47-4422-b78e-d806d1af2e13")
+		)
+		(instances
+			(project ""
+				(path "/b6eaeb87-498a-45c0-b349-c7ab4413dd95"
+					(reference "Brd1")
 					(unit 1)
 				)
 			)
