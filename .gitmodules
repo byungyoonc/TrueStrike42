@@ -13,3 +13,6 @@
 [submodule "hw/submodules/SkeletonKBD-Parts"]
 	path = hw/submodules/SkeletonKBD-Parts
 	url = https://github.com/skeletonkbd/SkeletonKBD-Parts
+[submodule "hw/submodules/KiCad-SSD1306-128x64"]
+	path = hw/submodules/KiCad-SSD1306-128x64
+	url = https://github.com/pforrmi/KiCad-SSD1306-128x64
