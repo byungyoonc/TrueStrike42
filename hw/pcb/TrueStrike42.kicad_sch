@@ -2273,10 +2273,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 11.43 -2.54 180)
-					(length 3.81)
-					(name "GND"
+				(pin output line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2291,10 +2291,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "VOUT"
+				(pin power_in line
+					(at 11.43 -2.54 180)
+					(length 3.81)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
