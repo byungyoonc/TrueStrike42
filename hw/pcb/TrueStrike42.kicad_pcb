@@ -36679,7 +36679,7 @@
 		(at 148.419755 102.967879 180)
 		(descr "Tactile switch, SPST, 6.0x3.5 mm, H2.5 mm, straight, NO, gull wing leads: https://www.ckswitches.com/media/2779/pts636.pdf")
 		(tags "switch tactile SPST 1P1T straight NO SMTR C&K")
-		(property "Reference" "SW1"
+		(property "Reference" "RESET"
 			(at 0 3 0)
 			(unlocked yes)
 			(layer "B.SilkS")
