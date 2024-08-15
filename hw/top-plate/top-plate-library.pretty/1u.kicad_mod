@@ -1,0 +1,256 @@
+(footprint "1u"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5ab41dc6-7061-475b-a8e2-4c567ae7ab73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1u"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44716a29-8700-41ad-8856-d66924aa7463")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "170aa398-1cc0-4983-8ddc-5ef3c2558155")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f93ec43-3be9-4fd6-92a2-0e4cb2eda7e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1169c68a-864f-48b6-8bc0-3de05d6f9c6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -9.525 9.5)
+		(end -9.525 -9.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "848ae4b8-b9fe-4236-af8f-b2ec2078aabc")
+	)
+	(fp_line
+		(start -7 -7.025)
+		(end -7 -5.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "aeab6097-667f-409a-a499-f358a74dea4e")
+	)
+	(fp_line
+		(start -7 4.974998)
+		(end -7 6.975)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "211756fa-8c36-44e0-b8be-51c326c8af16")
+	)
+	(fp_line
+		(start -7 6.975)
+		(end -5 6.975)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "37b23543-b0df-411f-a754-eaccc84e0768")
+	)
+	(fp_line
+		(start -4.999998 -7.025)
+		(end -7 -7.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3d3a6078-eae5-4b5e-b37c-95ad3da64c24")
+	)
+	(fp_line
+		(start 4.999998 6.975)
+		(end 7 6.975)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3bfaf749-9452-4bc8-8a99-8a616b645d3e")
+	)
+	(fp_line
+		(start 5 -7.025)
+		(end 7 -7.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "563c98f8-55ce-4c96-8444-a24d4457709e")
+	)
+	(fp_line
+		(start 7 -7.025)
+		(end 7 -5.024998)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d291ed58-ca70-4af0-8e88-68c631784848")
+	)
+	(fp_line
+		(start 7 6.975)
+		(end 7 4.975)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "962eae9c-f96b-4d65-8780-67d74a121dc3")
+	)
+	(fp_line
+		(start 9.525 -9.55)
+		(end -9.525 -9.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "73421abf-9b01-47bc-b4ae-81ef679926fc")
+	)
+	(fp_line
+		(start 9.525 9.5)
+		(end -9.525 9.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d91bfd51-54bd-40e3-a263-96186c9c161f")
+	)
+	(fp_line
+		(start 9.525 9.5)
+		(end 9.525 -9.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "727050b4-f946-47c6-8ea6-8e123ad7bf4c")
+	)
+	(fp_line
+		(start -7 -7)
+		(end -7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "88a5d434-dfb0-41cf-9b71-8f494fad5b32")
+	)
+	(fp_line
+		(start -7 7)
+		(end 7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "41f5f600-2cef-499f-aa8a-c4057fff84ab")
+	)
+	(fp_line
+		(start 7 -7)
+		(end -7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0ac29b07-20e9-436b-8925-b541854c994b")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a59d3506-e477-4c7a-8953-247bff1f4b21")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.025 0)
+		(layer "B.Fab")
+		(uuid "05ee3bb0-2806-4829-a24d-85bba46029d4")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.05)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a284482-afe1-4ca5-a7a8-2cf20dd57c55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
