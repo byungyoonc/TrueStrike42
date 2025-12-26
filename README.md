@@ -1,5 +1,9 @@
 # TrueStrike42
-TrueStrike42 is a columnar staggered unibody split Hall-effect keyboard designed to maximize performance and minimize finger fatigue.
+![](doc/res/truestrike42-built.jpg)
+
+TrueStrike42 is a columnar staggered unibody split Hall-effect keyboard designed to maximize performance[^1] and minimize finger fatigue.
+
+[^1]: specifically on rhythm games
 
 # Layout
 ![](doc/res/truestrike42-kle.png)
