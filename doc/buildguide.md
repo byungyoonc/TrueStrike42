@@ -37,15 +37,26 @@
 ## Soldering Components
 ![](res/pcbs.png)
 
-Get your PCB and plates ready, and solder the components on the PCB. After the soldering, back of the PCB will look like this:
+Get your PCB and plates ready, and solder the components on the PCB.
+
+> [!NOTE]
+> MCU's bootloader mode buttons can be very hard to access after all the soldering, so consider flashing the firmware beforehand.
+
+> [!WARNING]
+> MCU will behave very erratic (e.g. sending random keypresses rapidly) right after flashing the firmware, before soldering all the components on the board. This is because MCU's analogue pins are connected to nothing, resulting in noise sensor values. 
+>
+> Disconnect the MCU from the PC as soon as possible after the successful firmware flash to prevent chaos.
+
+After the soldering, back of the PCB will look like this:
 
 ![](res/pcb_soldered_back.png)
 
-While soldering the components, make sure you're soldering the right component to the right position. Especially those ICs with SOIC packages can be tricky to identify; 
-
-- U2 through U8 uses 74HC4501
-- U9 uses 74AHCT125
-- U10 uses 4503.
+> [!NOTE]
+> While soldering the components, make sure you're soldering the right component to the right position. Especially those ICs with SOIC packages can be tricky to identify; 
+>
+> - U2 through U8 uses 74HC4501
+> - U9 uses 74AHCT125
+> - U10 uses 4503.
 
 ![](res/soic_disambiguation.png)
 
