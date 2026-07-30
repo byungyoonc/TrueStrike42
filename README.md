@@ -69,5 +69,12 @@ Sets the offset values for the selected Mode.
 
 The value ranges from 1 (Topmost) to 255 (Bottommost).
 
+# Related Projects
+
+- [Cipulot's EC Boards](https://github.com/qmk/qmk_firmware/tree/master/keyboards/cipulot/common)
+  - TrueStrike42's QMK firmware code for analog signal processing was heavily based on the code for the Cipulot's EC boards.
+- [Boardloaf HE](https://github.com/Hanthebot/Boardloaf-HE)
+  - 36 key HE split keyboard project by Hanthebot. Their schematics design was derived from TrueStrike42.
+
 # Copyright Notice
 `True-Strike-icon.kicad_mod` was created by modifying an icon image for True Strike in the game Baldur's Gate 3, a game by Larian Studios. I used it in accordance with the [Larian Fan Content Policy](https://larian.com/fan-content-policy).
